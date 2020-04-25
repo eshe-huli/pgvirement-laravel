@@ -4,7 +4,7 @@
 
                     <!-- Start Content-->
                     <div class="container-fluid">
-                        
+
                         <!-- start page title -->
                         <div class="row">
                             <div class="col-12">
@@ -18,130 +18,11 @@
                                     <h4 class="page-title">Dashboard</h4>
                                 </div>
                             </div>
-                        </div>     
-                        <!-- end page title --> 
-
-                        <div class="row">
-                            <div class="col-xl-4">
-        
-                                <div class="card-box">
-                                    <div class="dropdown float-right">
-                                        <a href="#" class="dropdown-toggle arrow-none card-drop" data-toggle="dropdown" aria-expanded="false">
-                                            <i class="mdi mdi-dots-horizontal"></i>
-                                        </a>
-                                        <div class="dropdown-menu dropdown-menu-right">
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Settings</a>
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Download</a>
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Upload</a>
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Action</a>
-                                        </div>
-                                    </div>
-                                    <h4 class="header-title">Daily Sales</h4>
-                                    <p class="text-muted">March 26 - April 01</p>
-                                    <div class="mb-3 mt-4">
-                                        <div class="float-right d-none d-xl-block">
-                                            <img src="assets/images/cards/visa.png" alt="user-card" height="28">
-                                            <img src="assets/images/cards/master.png" alt="user-card" height="28">
-                                            <img src="assets/images/cards/american-express.png" alt="user-card" height="28">
-                                        </div>
-                                        <h2 class="font-weight-light">$8,459.56</h2>
-                                    </div>
-                                    <div class="chartjs-chart dash-sales-chart"><div class="chartjs-size-monitor" style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div>
-                                        <canvas id="sales-chart" width="622" class="chartjs-render-monitor" height="165" style="display: block; width: 622px; height: 165px;"></canvas>
-                                    </div>
-                                </div><!-- end card-box-->
-        
-                                <div class="card-box widget-chart-one gradient-success bx-shadow-lg">
-                                    <div class="float-left" dir="ltr">
-                                        <div style="display:inline;width:80px;height:80px;"><canvas width="80" height="80"></canvas><input data-plugin="knob" data-width="80" data-height="80" data-linecap="round" data-fgcolor="#ffffff" data-bgcolor="rgba(255,255,255,0.2)" value="49" data-skin="tron" data-angleoffset="180" data-readonly="true" data-thickness=".1" readonly="readonly" style="width: 44px; height: 26px; position: absolute; vertical-align: middle; margin-top: 26px; margin-left: -62px; border: 0px; background: none; font: bold 16px Arial; text-align: center; color: rgb(255, 255, 255); padding: 0px; -webkit-appearance: none;"></div>
-                                    </div>
-                                    <div class="widget-chart-one-content text-right">
-                                        <p class="text-white mb-0 mt-2">Statistics</p>
-                                        <h3 class="text-white">$714</h3>
-                                    </div>
-                                </div> <!-- end card-box-->
-        
-                            </div> <!-- end col -->
-        
-                            <div class="col-xl-4">
-                                <div class="card-box">
-                                    <div class="dropdown float-right">
-                                        <a href="#" class="dropdown-toggle arrow-none card-drop" data-toggle="dropdown" aria-expanded="false">
-                                            <i class="mdi mdi-dots-horizontal"></i>
-                                        </a>
-                                        <div class="dropdown-menu dropdown-menu-right">
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Settings</a>
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Download</a>
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Upload</a>
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Action</a>
-                                        </div>
-                                    </div>
-                                    <h4 class="header-title mb-3">Statistics</h4>
-                                    <div class="row text-center">
-                                        <div class="col-sm-4 mb-3">
-                                            <h3 class="font-weight-light">4,335</h3>
-                                            <p class="text-muted text-overflow">Total Sales</p>
-                                        </div>
-                                        <div class="col-sm-4 mb-3">
-                                            <h3 class="font-weight-light">874</h3>
-                                            <p class="text-muted text-overflow">Open Compaign</p>
-                                        </div>
-                                        <div class="col-sm-4 mb-3">
-                                            <h3 class="font-weight-light">2,548</h3>
-                                            <p class="text-muted text-overflow">Total Sales</p>
-                                        </div>
-                                    </div>
-                                    <div class="chartjs-chart high-performing-product"><div class="chartjs-size-monitor" style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div>
-                                        <canvas id="high-performing-product" width="622" class="chartjs-render-monitor" height="309" style="display: block; width: 622px; height: 309px;"></canvas>    
-                                    </div>            
-                                </div> <!-- end card-box-->
-                            </div> <!-- end col -->
-        
-                            <div class="col-xl-4">
-                                <div class="card-box">
-                                    <div class="dropdown float-right">
-                                        <a href="#" class="dropdown-toggle arrow-none card-drop" data-toggle="dropdown" aria-expanded="false">
-                                            <i class="mdi mdi-dots-horizontal"></i>
-                                        </a>
-                                        <div class="dropdown-menu dropdown-menu-right">
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Settings</a>
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Download</a>
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Upload</a>
-                                            <!-- item-->
-                                            <a href="javascript:void(0);" class="dropdown-item">Action</a>
-                                        </div>
-                                    </div>
-                                    <h4 class="header-title mb-3">Total Revenue</h4>
-                                    <div class="row text-center">
-                                        <div class="col-6 mb-3">
-                                            <h3 class="font-weight-light">8,459</h3>
-                                            <p class="text-muted text-overflow">Total Sales</p>
-                                        </div>
-                                        <div class="col-6 mb-3">
-                                            <h3 class="font-weight-light">584</h3>
-                                            <p class="text-muted text-overflow">Open Compaign</p>
-                                        </div>
-                                    </div>
-                                    <div class="chartjs-chart conversion-chart"><div class="chartjs-size-monitor" style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div>
-                                        <canvas id="conversion-chart" width="622" class="chartjs-render-monitor" height="309" style="display: block; width: 622px; height: 309px;"></canvas>
-                                    </div>
-                                </div>  <!-- end card-box-->
-                            </div> <!-- end col -->
                         </div>
+                        <!-- end page title -->
                         <!-- end row -->
-        
-        
+
+
                         <div class="row">
                             <div class="col-xl-3">
                                 <div class="card-box">
@@ -165,11 +46,11 @@
                                         <h2 class="font-weight-normal mb-2">$6,584.22 <i class="mdi mdi-arrow-up text-success"></i></h2>
                                         <p class="text-muted">March 26 - April 01</p>
                                     </div>
-        
+
                                     <div class="mb-3 chartjs-chart dash-doughnut"><div class="chartjs-size-monitor" style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div>
                                         <canvas id="doughnut" width="622" class="chartjs-render-monitor" height="186" style="display: block; width: 622px; height: 186px;"></canvas>
                                     </div>
-    
+
                                     <div>
                                         <p><i class="mdi mdi-stop-circle-outline text-success"></i> Wallet Ballance <span class="float-right font-weight-normal">$825.25</span></p>
                                         <p><i class="mdi mdi-stop-circle-outline text-danger"></i> Travels <span class="float-right font-weight-normal">$1,254</span></p>
@@ -177,7 +58,7 @@
                                     </div>
                                 </div> <!-- end card-box -->
                             </div> <!-- end col -->
-        
+
                             <div class="col-xl-6">
                                 <div class="card-box">
                                     <div class="dropdown float-right">
@@ -196,24 +77,24 @@
                                         </div>
                                     </div>
                                     <h4 class="header-title mb-4">Transaction History</h4>
-        
-                                    
+
+
                                     <div class="table-responsive">
                                         <div id="datatable_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer"><div class="row"><div class="col-sm-12 col-md-6"></div><div class="col-sm-12 col-md-6"></div></div><div class="row"><div class="col-sm-12"><table class="table table-centered table-hover mb-0 dataTable no-footer" id="datatable" role="grid" aria-describedby="datatable_info">
                                             <thead>
                                                 <tr role="row"><th class="border-top-0 sorting_asc" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Name: activate to sort column descending" style="width: 59.4063px;">Name</th><th class="border-top-0 sorting" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1" aria-label="Card: activate to sort column ascending" style="width: 34.4063px;">Card</th><th class="border-top-0 sorting" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1" aria-label="Date: activate to sort column ascending" style="width: 56.4063px;">Date</th><th class="border-top-0 sorting" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1" aria-label="Amount: activate to sort column ascending" style="width: 54.4063px;">Amount</th><th class="border-top-0 sorting" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1" aria-label="Status: activate to sort column ascending" style="width: 44.4063px;">Status</th></tr>
                                             </thead>
                                             <tbody>
-                                                
-                                                
-                                                
-                                                
-                                                
-                                                
-                                                
-                                                
-                                                
-                                                
+
+
+
+
+
+
+
+
+
+
                                             <tr role="row" class="odd">
                                                     <td class="sorting_1">
                                                         <img src="assets/images/users/avatar-9.jpg" alt="user-pic" class="rounded-circle avatar-sm bx-shadow-lg">
@@ -277,10 +158,10 @@
                                                 </tr></tbody>
                                         </table></div></div><div class="row"><div class="col-sm-12 col-md-5"><div class="dataTables_info" id="datatable_info" role="status" aria-live="polite">Showing 1 to 5 of 10 entries</div></div><div class="col-sm-12 col-md-7"><div class="dataTables_paginate paging_simple_numbers" id="datatable_paginate"><ul class="pagination"><li class="paginate_button page-item previous disabled" id="datatable_previous"><a href="#" aria-controls="datatable" data-dt-idx="0" tabindex="0" class="page-link">Previous</a></li><li class="paginate_button page-item active"><a href="#" aria-controls="datatable" data-dt-idx="1" tabindex="0" class="page-link">1</a></li><li class="paginate_button page-item "><a href="#" aria-controls="datatable" data-dt-idx="2" tabindex="0" class="page-link">2</a></li><li class="paginate_button page-item next" id="datatable_next"><a href="#" aria-controls="datatable" data-dt-idx="3" tabindex="0" class="page-link">Next</a></li></ul></div></div></div></div>
                                     </div>
-        
+
                                 </div> <!-- end card-box-->
                             </div> <!-- end col-->
-        
+
                             <div class="col-xl-3">
                                 <div class="card-box gradient-danger bx-shadow-lg pb-0">
                                     <h4 class="header-title text-white">Daily Sales</h4>
@@ -288,12 +169,12 @@
                                     <div class="mb-3 mt-4">
                                         <h2 class="font-weight-light  text-white">$3,558.48</h2>
                                     </div>
-        
+
                                     <div class="pull-in"><div class="chartjs-size-monitor" style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div>
                                         <canvas id="lineChart" height="115" width="670" class="chartjs-render-monitor" style="display: block; width: 670px; height: 115px;"></canvas>
                                     </div>
                                 </div> <!-- end card-box-->
-        
+
                                 <div class="card-box">
                                     <div class="media">
                                         <img class="mr-3 rounded-circle bx-shadow-lg" src="assets/images/users/avatar-4.jpg" alt="Generic placeholder image" height="80">
@@ -307,7 +188,7 @@
                             </div> <!-- end col -->
                         </div>
                         <!-- end row -->
-        
+
                         <div class="row">
                             <div class="col-xl-8">
                                 <div class="card-box">
@@ -339,7 +220,7 @@
                                                     <div class="progress-bar" role="progressbar" style="width: 72%;" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"></div>
                                                 </div>
                                             </div>
-        
+
                                             <h5 class="mb-1 mt-0">51,480 <small class="text-muted ml-2">www.youtube.com</small></h5>
                                             <div class="progress-w-percent">
                                                 <span class="progress-value font-weight-bold">39% </span>
@@ -347,7 +228,7 @@
                                                     <div class="progress-bar bg-success" role="progressbar" style="width: 39%;" aria-valuenow="39" aria-valuemin="0" aria-valuemax="100"></div>
                                                 </div>
                                             </div>
-        
+
                                             <h5 class="mb-1 mt-0">45,760 <small class="text-muted ml-2">www.dribbble.com</small></h5>
                                             <div class="progress-w-percent">
                                                 <span class="progress-value font-weight-bold">61% </span>
@@ -355,7 +236,7 @@
                                                     <div class="progress-bar bg-info" role="progressbar" style="width: 61%;" aria-valuenow="61" aria-valuemin="0" aria-valuemax="100"></div>
                                                 </div>
                                             </div>
-        
+
                                             <h5 class="mb-1 mt-0">98,512 <small class="text-muted ml-2">www.behance.net</small></h5>
                                             <div class="progress-w-percent">
                                                 <span class="progress-value font-weight-bold">52% </span>
@@ -363,7 +244,7 @@
                                                     <div class="progress-bar bg-warning" role="progressbar" style="width: 52%;" aria-valuenow="52" aria-valuemin="0" aria-valuemax="100"></div>
                                                 </div>
                                             </div>
-        
+
                                             <h5 class="mb-1 mt-0">2,154 <small class="text-muted ml-2">www.vimeo.com</small></h5>
                                             <div class="progress-w-percent">
                                                 <span class="progress-value font-weight-bold">28% </span>
@@ -375,7 +256,7 @@
                                     </div> <!-- end row-->
                                 </div>  <!-- end card-box-->
                             </div> <!-- end col -->
-        
+
                             <div class="col-xl-4">
                                 <div class="card-box">
                                     <div class="dropdown float-right">
@@ -394,7 +275,7 @@
                                         </div>
                                     </div>
                                     <h4 class="header-title mb-4">Data Uses</h4>
-        
+
                                     <div class="row text-center">
                                         <div class="col-6 mb-3">
                                             <h3 class="font-weight-light"> <i class="mdi mdi-cloud-download text-info"></i> 79%</h3>
@@ -405,16 +286,16 @@
                                             <p class="text-muted text-overflow">Uploads</p>
                                         </div> <!-- end col -->
                                     </div> <!-- end row-->
-        
+
                                     <div class="chartjs-chart datauses-area"><div class="chartjs-size-monitor" style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div>
                                         <canvas id="datauses-area-1" width="622" class="chartjs-render-monitor" height="198" style="display: block; width: 622px; height: 198px;"></canvas>
                                     </div>
                                 </div> <!-- end card-box-->
                             </div> <!-- end col-->
-        
+
                         </div>
                         <!-- end row -->
-                        
+
                     </div> <!-- container -->
 
                 </div> <!-- content -->
